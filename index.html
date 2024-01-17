@@ -29,7 +29,7 @@
            
             <i class="fa fa-bars" style="font-size:12px; color:white"></i>
             <div class="col-md-6 ">
-                <h6 class="display-6 small">Sharitha Gunasekaran</h6>
+                <h6 class="display-5 small">Sharitha Gunasekaran</h6>
               </div>
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -38,22 +38,29 @@
         <div class="collapse navbar-collapse sticky-top" id="navbarResponsive" >
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link display-6 small" href="#">
                         <!-- <i class="fa fa-home"></i>  -->
                         Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">
+                    <a class="nav-link display-6 small" href="#about">
                         <!-- <i class="fa fa-user"></i> -->
                          About</a>
                 </li>
+
+                <!-- <li class="nav-item">
+                    <a class="nav-link display-6 small" href="#Appreciation">
+                         Appreciation</a>
+                </li> -->
+
                 <li class="nav-item">
-                    <a class="nav-link" href="#photos">
+                    <a class="nav-link display-6 small" href="#photos">
                         <!-- <i class="fa fa-eye"></i> -->
                          Projects</a>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">
+                    <a class="nav-link display-6 small" href="#contact">
                         <!-- <i class="fa fa-envelope"></i> -->
                          Contact</a>
                 </li>
@@ -67,16 +74,16 @@
         <section class="home">
             <div class="home-text">
                 <h1>Sharitha Gunasekaran</h1>
-                <p>Computer Science Student👨‍💻 | Full stack developer🔮 | Self Motivated✨.</p>
+                <p id="abouttxt">Computer Science Student👨‍💻 | Full stack developer🔮 | Self Motivated✨.</p>
                 <div class="main-btn">
-                    <a href="#" class="btn">Download CV</a>
+                    <a href="" download="SharithaGResume" class="btn">Download CV</a>
                     <a href="mailto:sharithag03@gmail.com" class="btn btn2">Contact me</a>
 
                     
                 </div>
             </div>
             <div class="homeimg">
-                <img src="assets/SharithaImage.png" alt="SharithaGImage">
+                <img src="assets/Avatar.jpg" alt="AvatarImage" height="340" width="350">
             </div>
         </section>
 
@@ -100,7 +107,8 @@
                     and I am still practicing it to evolve better for my future career🧿!!.
                 </p>  -->
 
-                <div class="about-container">
+                <div class="about-container" id="about">
+                    <h5 id="aboutMe">About Me</h5>
                     <div class="about-timeline">
                         <div class="timeline-item left">
                             <div class="timeline-content">
@@ -109,13 +117,7 @@
                                 <p>Passionate about shaping the future of technology.</p>
                             </div>
                         </div>
-                        <div class="timeline-item right">
-                            <div class="timeline-content">
-                                <span class="timeline-date">Graduation</span>
-                                <h6>B.E Computer Science & Engineering</h6>
-                                <p>Completed at A.V.C College of Engineering, Mayiladuthurai.</p>
-                            </div>
-                        </div>
+
                         <div class="timeline-item right">
                             <div class="timeline-content">
                                 <span class="timeline-date">Internship</span>
@@ -123,11 +125,20 @@
                                 <p>3-month internship at Logic Research Labs, Kumbakonam.</p>
                             </div>
                         </div>
+
+                        <div class="timeline-item right">
+                            <div class="timeline-content">
+                                <span class="timeline-date">Graduation</span>
+                                <h6>B.E Computer Science & Engineering</h6>
+                                <p>Completed at A.V.C College of Engineering, Mayiladuthurai.</p>
+                            </div>
+                        </div>
+                      
                     </div>
                 </div>
             
 
-                <!-- <h3 class="w3-padding-16 w3-text-white" id="skills">My Skills</h3>
+               <!-- <h3 class="w3-padding-16 w3-text-white" id="skills">My Skills</h3>
                 <p class="w3-wide w3-text-white">HTML,CSS</p>
                 <div class="w3-white">
                     <div style="height:28px;width:95%;background-color:#61A4BC"></div>
@@ -143,30 +154,39 @@
                 <p class="w3-wide w3-text-white">PHP,SQL</p>
                 <div class="w3-white">
                     <div style="height:28px;width:80%;background-color:#61A4BC"></div>
-                </div><br>
+                </div><br> -->
 
-                <div class="w3-row w3-center w3-padding-16 w3-section w3-text-white" style="background-color:#A696C8">
-                    <div class="w3-quarter w3-section ">
-                        <span class="w3-xlarge">3+</span><br>
-                        Projects Done
+                <!-- Appreciations sections Starts -->
+                <div class="appsection" id="Appreciation">
+                    <div class="appreciation">
+                        <span class="counts">3+</span><br>
+                        <p class="apprecTitle"> Projects Done</p>
                     </div>
-                    <div class="w3-quarter w3-section">
-                        <span class="w3-xlarge">10+</span><br>
-                        Appreciations
+                    <div class="appreciation">
+                        <span class="counts">10+</span><br>
+                        <p class="apprecTitle">Appreciations</p>
                     </div>
-                    <div class="w3-quarter w3-section">
-                        <span class="w3-xlarge">2</span><br>
-                        Internship
+                    <div class="appreciation">
+                        <span class="counts">2</span><br>
+                        <p class="apprecTitle">Internships</p>
                     </div>
-                    <div class="w3-quarter w3-section">
-                        <span class="w3-xlarge">9+</span><br>
-                        CGPA
+                    <div class="appreciation">
+                        <span class="counts">9+</span><br>
+                        <p class="apprecTitle">CGPA</p>
                     </div>
-                </div> -->
+               </div>
+                <!-- Appreciations sections ends -->
 
-            <!-- </div>
+            </div>
 
         </div>
+
+
+        <div>
+            <br><br>
+        </div>
+        <div style="display: flex; align-items: center; justify-content:center ;margin-left: 1em;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptas quis assumenda error, rem perspiciatis aut vero, possimus itaque fugit neque necessitatibus praesentium, consequatur nam corrupti labore. Ducimus, temporibus necessitatibus.</div>
+
 
         <!-- Portfolio Section -->
 

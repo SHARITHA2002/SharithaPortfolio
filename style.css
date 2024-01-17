@@ -20,6 +20,7 @@ h6,p {
     text-decoration: none;
 }
 
+
 #navbarResponsive
 {
     position: sticky;
@@ -37,6 +38,14 @@ h6,p {
     display: none;
 }
 
+.small
+{
+    font-weight: 500;
+}
+.nav-link
+{
+    /* font-weight: bold; */
+}
 .header
 {
     margin-top: 5em;
@@ -52,7 +61,6 @@ header img
     height: 300px;
 }
 
-
 section
 {
     padding: 0 15%;
@@ -66,6 +74,8 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 }
+
+
 
 .home-text h1{
     font-weight: 700;
@@ -107,12 +117,32 @@ justify-content: space-between;
     border-radius: 10px;
 }
 
+#aboutMe
+{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    text-orientation: mixed;
+    writing-mode:vertical-rl;
+    transform: rotate(180deg);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:#604f71;
+    border-radius:  25px 5px 25px 5px ;
+    line-height: 2em;
+    padding: 25px 5px;
+    vertical-align: middle;
+    margin-bottom: 1.5em ;
+}
+
 .about-timeline {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
+
 
 .timeline-item {
     position: relative;
@@ -132,6 +162,15 @@ justify-content: space-between;
     width: 2px;
 }
 
+
+.timeline-content:hover
+{
+    transform: translateY(-3px);
+    animation-delay: 2s ease-out;
+    background: transparent;
+    border: 1px solid #604f71;
+    border-radius: 6px;
+}
 
 
 .timeline-content {
@@ -167,12 +206,70 @@ h6
     font-weight: 600;
 }
 
+
+/* Appreciation Styles -starts */
+
+.appsection
+{
+    /* background-color: #fff; */
+    /* color: #33186B; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:auto  8em;
+    margin-top: 1em;
+}
+
+.appreciation
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #604f71;
+    color:#fff;
+    flex-direction: column;
+    margin: auto 2.5em;
+    padding-top: 1em;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10%;
+    width: 10em;
+}
+
+.counts
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+.apprecTitle
+{
+    font-weight: bold;
+    /* color: black; */
+}
+
+/* Appreciation Styles -Ends */
 @media (max-width:600px) {
+
+    h1{
+        font-weight: bolder;
+        font-size: 26px;
+    }
+    #abouttxt{
+        display:none;
+    }
     .small-name{
         display: none;
+       
     }
     .small
     {
+        font-weight: 400;
         padding-top: 5px;
     }
     .navbutton{
@@ -240,10 +337,12 @@ h6
     {
        padding:unset;
     }
-    .homeimg{
-        display: none;
-    }
-
+   .homeimg
+   {
+    /* display: block; */
+    position:relative;
+    height: 2em;
+   }
     .btn:hover{
         transform:  translateY(-3px);
         background: transparent;
@@ -254,12 +353,14 @@ h6
     .about-container
     {
         justify-content: unset;
+        display: flex;
+        flex-direction: row;
     }
-    .about-timeline {
+    /* .about-timeline {
         display: flex;
         flex-direction: column;
         margin-right: 1em;
-    }
+    } */
     .timeline-content {
         padding: 20px;
         background-color: #fff;
@@ -275,16 +376,75 @@ h6
         display: flex;
         align-items: flex-start;
         flex-direction: row;
-        margin-bottom: 30px;
+        margin-bottom: 3px;
         width: 332px;
     }
-    .about-container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+
+
+    .about-container 
+    {   display: flex; 
+        flex-direction: column; 
+        align-items: center; 
         margin-right: 5em;
-        padding-right: 43px;
-        /* background-color: #000; */
-        border-radius: 10px;
+        padding-right: 43px; 
+        border-radius: 10px; 
+        width: 22em; 
+        margin-top: 19em; 
     }
+    #aboutMe {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+         text-orientation: unset; 
+         writing-mode: unset; 
+        transform: unset; 
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 14px;
+        background-color: #6a597b;
+        border-radius: 5px 5px 5px 5px;
+        line-height: 2em;
+        padding: 1px 89px;
+        vertical-align: middle;
+        margin-bottom: 1.5em;
+        margin-left: 2em;
+    }
+    .about-timeline 
+    { 
+        display: flex; 
+        flex-direction: column; /* margin-right: 1em; */ 
+        align-items: center; 
+        justify-content: center;
+         margin-left: 2em; 
+    }
+
+
+    /* Appreciation -mobile view -starts */
+
+
+    .appreciation 
+        { 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            background-color: #604f71; 
+            color: #fff; 
+            flex-direction: column; 
+            margin: 0.4em 2.5em; 
+            padding-top: 1em; 
+            text-align: center; 
+            vertical-align: middle; 
+            border-radius: 2%; 
+            width: 17em; 
+        }
+        .appsection 
+        { 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            justify-content: center; 
+            margin: auto; 
+            margin-top: 1em; 
+        }
+        /* Appreciation -mobile view -ends */
 }
