@@ -300,7 +300,7 @@ h6 {
   
   .project-card img {
     max-width: 100%;
-    min-height: 250px;
+    height: 250px;
     border: 2px solid #604f71;
   }
   
