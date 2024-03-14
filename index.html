@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>Sharitha Gunasekaran</title>
+    <link rel="icon" type="image/x-icon" href="assets/Avatar.jpg">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Sharitha Gunasekaran's Portfolio">
@@ -21,293 +22,296 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link rel="stylesheet" href="style.css" />
     <style></style>
   </head>
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md fixed-top pt-3">
-      <div class="col-md-6 text-md-left">
-        <h6 class="display-6 small-name">Sharitha Gunasekaran</h6>
-      </div>
-      <button
-        class="navbutton"
-        type="navbutton"
-        data-toggle="collapse"
-        data-target="#navbarResponsive"
-      >
-        <i class="fa fa-bars" style="font-size: 12px; color: white"></i>
-        <div class="col-md-6">
-          <h6 class="display-5 small">Sharitha Gunasekaran</h6>
+
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top pt-3">
+        <div class="col-md-6 text-md-left">
+          <h6 class="display-6 small-name">Sharitha Gunasekaran</h6>
         </div>
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse sticky-top" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link display-6 small" href="index.html">
-              <!-- <i class="fa fa-home"></i>  -->
-              Home</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link display-6 small" href="#about">
-              <!-- <i class="fa fa-user"></i> -->
-              About</a
-            >
-          </li>
-
-          <!-- <li class="nav-item">
-                    <a class="nav-link display-6 small" href="#Appreciation">
-                         Appreciation</a>
-                </li> -->
-
-          <li class="nav-item">
-            <a class="nav-link display-6 small" href="#projects">
-              <!-- <i class="fa fa-eye"></i> -->
-              Projects</a
-            >
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link display-6 small" href="#contact">
-              <!-- <i class="fa fa-envelope"></i> -->
-              Contact</a
-            >
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <div class="container pt-5" id="main">
-        <section class="home">
-          <div class="home-text">
-              <h1 id="homeText">Sharitha Gunasekaran</h1>
-              <div class="main-btn">
-                <a href="assets/Sharitha-Resume.pdf" download="SharithaGResume" class="btn"
-                  ><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
-                  Resume</a
-                >
-                <a href="mailto:sharithag03@gmail.com" class="btn btn2"
-                  ><i class="fa fa-paper-plane" aria-hidden="true"> </i> Let's
-                  connect</a
-                >
-              </div>
-          </div>
-
-          <div class="homeimg">
-            <img id="girlImg" src="assets/Avatar.jpg" alt="AvatarImage" />
-          </div> 
-        </section>
-
-      <!-- Page Content -->
-      <div id="main">
-        <div class="about-container" id="about">
-          <h5 id="aboutMe">About Me</h5>
-          <div class="about-timeline">
-            <div class="timeline-item left">
-              <div class="timeline-content">
-                <span class="timeline-date">Present</span>
-                <h6>Software Engineer at CogniAI</h6>
-                <ul>
-                  <li>
-                    Working in patient-centric projects contributing healthcare
-                    domain.Fixing backend API bugs & Creating payment
-                    sandbox-Patient Payment
-                  </li>
-                  <li>Also involves in supporting Open Source-OpenEMR</li>
-                  <li><b>Skills :</b> Angular, Laravel, Git</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="timeline-item right">
-              <div class="timeline-content">
-                <span class="timeline-date">Internship</span>
-                <h6>Full Stack Developer Intern at LRL</h6>
-                <ul>
-                  <li>
-                    Developed a medical Dashboard for Multi-Speciality
-                    hospitals to monitor the hospital's day-to-day activities
-                  </li>
-                  <li>
-                   The project paper was presented at the International Conference in 2023.
-                  </li>
-                  <li><b>Skills :</b> Bootstrap, PHP, REST APIs</li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="timeline-item right">
-              <div class="timeline-content">
-                <span class="timeline-date">Graduation</span>
-                <h6>B.E CSE (2019-23)</h6>
-                <ul>
-                  <li>
-                    Graduated from A.V.C College of Engineering, Mayiladuthurai.
-                  </li>
-                  <li>Obtained CGPA:<b>9.05</b></li>
-                  <li>Spotted as a finalist in SIH hackathon 2022</li>
-                  <li><b>Course work:</b> DBMS, Networks, Cryptography</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div> 
-
-        <section id="projects">
-          <h5 id="projectsTitle">Projects</h5>
-          <div class="project-section" id="hobby-projects">
-
-            <div class="project-row">
-              <div class="project-card">
-                <img
-                  src="assets/TacoBell_Projects.PNG"
-                  alt="Hobby Project 1"
-                />
-                <div class="project-details">
-                  <a
-                    href="https://github.com/SHARITHA2002/TacoBell"
-                    target="_blank"
-                  >
-                    <p class="projectTitle">TacoBell-Clone</p>
-                  </a>
-                </div>
-              </div>
-
-              <div class="project-card">
-                <img
-                  src="assets/SkyScope_Project.PNG"
-                  alt="Hobby Project 2"
-                />
-                <div class="project-details">
-                  <a
-                    href="https://github.com/SHARITHA2002/SkyScope"
-                    target="_blank"
-                  >
-                    <p class="projectTitle">SkyScope</p>
-                  </a>
-                </div>
-              </div>
-
-              <div class="project-card">
-                <img
-                  src="assets/medplus_projects.png"
-                  alt="Hobby Project 3"
-                />
-                <div class="project-details">
-                  <a
-                    href="https://github.com/SHARITHA2002/MedPlus"
-                    target="_blank"
-                  >
-                    <p class="projectTitle">MedPlus</p></a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
-        </section>  
-
-
-        <section id="certifications">
-          <h5 id="certificationsTitle">Certifications</h5>
-          <div class="certifications-section">
-
-            <div class="certifications-row">
-              <div class="certifications-card">
-                <img
-                  src="assets/CloudComputing.PNG"
-                  alt="CloudComputing-NPTEL"
-                />
-                <div class="certifications-details">
-                  <a
-                    href="https://archive.nptel.ac.in/noc/Ecertificate/?=NPTEL21CS62S446000103134594"
-                    target="_blank"
-                  >
-                    <p class="certificationsTitle">Cloud Computing</p>
-                  </a>
-                </div>
-              </div>
-
-              <div class="certifications-card">
-                <img
-                  src="assets/ResponsiveWebDesign.PNG"
-                  alt="ResponsiveWebDesign-FreecodeCamp"
-                />
-                <div class="certifications-details">
-                  <a
-                    href="https://www.freecodecamp.org/certification/fcc8fbf10ea-c379-4948-a7ad-2cb149fa470b/responsive-web-design"
-                    target="_blank"
-                  >
-                    <p class="certificationsTitle">Responsive Web Design</p>
-                  </a>
-                </div>
-              </div>
-
-              <!-- <div class="certifications-card">
-                <img
-                  src="asets/ticket_counter.png"
-                  alt="Hobby Project 3"
-                />
-                <div class="certifications-details">
-                  <a
-                    href="https://github.com/SHARITHA2002/TicketCounter"
-                    target="_blank"
-                  >
-                    <p class="certificationsTitle">Ticket Counter</p></a
-                  >
-                </div>
-              </div> -->
-            </div>
-          </div>
-        </section>
-
-          <section id="achievements">
-            <h5 id="achievementsTitle">Features</h5>
-            <div class="achievements-section">
+        <button
+          class="navbutton"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <i class="fa fa-bars" style="font-size: 12px; color: white"></i>
+          <h6 class="display-5 small col-md-6">Sharitha Gunasekaran</h6>
+          <span class="navbar-toggler-icon"></span>
+        </button>
   
-              <div class="achievements-row">
-                <div class="achievements-card">
+        <div class="collapse navbar-collapse sticky-top" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link display-6 small" href="index.html">
+                <!-- <i class="fa fa-home"></i>  -->
+                Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link display-6 small" href="#about">
+                <!-- <i class="fa fa-user"></i> -->
+                About</a
+              >
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link display-6 small" href="#projects">
+                Projects</a
+              >
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link display-6 small" href="#contact">
+                Contact</a
+              >
+            </li>
+  
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <div class="container pt-5" id="main">
+          <section class="home">
+            <div class="home-text">
+                <h1 id="homeText">Sharitha Gunasekaran</h1>
+                <div class="main-btn">
+                  <a href="assets/Sharitha-Resume.pdf" download="SharithaGResume" class="btn"
+                    ><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+                    Resume</a
+                  >
+                  <a href="mailto:sharithag03@gmail.com" class="btn btn2"
+                    ><i class="fa fa-paper-plane" aria-hidden="true"> </i> Let's
+                    connect</a
+                  >
+                </div>
+            </div>
+
+            <div class="homeimg">
+              <img id="girlImg" src="assets/Avatar.jpg" alt="AvatarImage" />
+            </div> 
+          </section>
+
+          <section class="about-container" id="about">
+            <h5 id="aboutMe">About Me</h5>
+            <div class="about-timeline">
+              <div class="timeline-item left">
+                <div class="timeline-content">
+                  <span class="timeline-date">Present</span>
+                  <h6>Software Engineer at CogniAI</h6>
+                  <ul>
+                    <li>
+                      Working in patient-centric projects contributing healthcare
+                      domain.Fixing backend API bugs & Creating payment
+                      sandbox-Patient Payment
+                    </li>
+                    <li>Also involves in supporting Open Source-OpenEMR</li>
+                    <li><b>Skills :</b> Angular, Laravel, Git</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timeline-item right">
+                <div class="timeline-content">
+                  <span class="timeline-date">Internship</span>
+                  <h6>Full Stack Developer Intern at LRL</h6>
+                  <ul>
+                    <li>
+                      Developed a medical Dashboard for Multi-Speciality
+                      hospitals to monitor the hospital's day-to-day activities
+                    </li>
+                    <li>
+                    The project paper was presented at the International Conference in 2023.
+                    </li>
+                    <li><b>Skills :</b> Bootstrap, PHP, REST APIs</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timeline-item right">
+                <div class="timeline-content">
+                  <span class="timeline-date">Graduation</span>
+                  <h6>B.E CSE (2019-23)</h6>
+                  <ul>
+                    <li>
+                      Graduated from A.V.C College of Engineering, Mayiladuthurai.
+                    </li>
+                    <li>Obtained CGPA:<b>9.05</b></li>
+                    <li>Spotted as a finalist in SIH hackathon 2022</li>
+                    <li><b>Course work:</b> DBMS, Networks, Cryptography</li>
+                  </ul>
+                </div>
+              </div>
+          </section>
+
+          <section id="projects">
+            <h5 id="projectsTitle">Projects</h5>
+            <div class="project-section" id="hobby-projects">
+
+              <div class="project-row">
+                <div class="project-card">
                   <img
-                    src="https://leetcard.jacoblin.cool/sharithag03?ext=contest"
-                    alt="Leetcode-Sharitha"
+                    src="assets/TacoBell_Projects.PNG"
+                    alt="Hobby Project 1"
                   />
-                  <div class="achievements-details">
+                  <div class="project-details">
                     <a
-                      href="https://leetcode.com/sharithag03/"
+                      href="https://github.com/SHARITHA2002/TacoBell"
                       target="_blank"
                     >
-                      <p class="achievementsTitle">Leetcode-Sharitha 🏆</p>
+                      <p class="projectTitle">TacoBell-Clone</p>
                     </a>
                   </div>
                 </div>
-  
-                <div class="achievements-card"> 
+
+                <div class="project-card">
                   <img
-                    src="assets/codingNInjas.PNG"
+                    src="assets/SkyScope_Project.PNG"
+                    alt="Hobby Project 2"
+                  />
+                  <div class="project-details">
+                    <a
+                      href="https://github.com/SHARITHA2002/SkyScope"
+                      target="_blank"
+                    >
+                      <p class="projectTitle">SkyScope</p>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="project-card">
+                  <img
+                    src="assets/medplus_projects.png"
+                    alt="Hobby Project 3"
+                  />
+                  <div class="project-details">
+                    <a
+                      href="https://github.com/SHARITHA2002/MedPlus"
+                      target="_blank"
+                    >
+                      <p class="projectTitle">MedPlus</p></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </section>
+
+          <section id="certifications">
+            <h5 id="certificationsTitle">Certifications</h5>
+
+            <div class="certifications-section">
+
+              <div class="certifications-row">
+
+                <div class="certifications-card">
+                  <img
+                    src="assets/CloudComputing.PNG"
+                    alt="CloudComputing-NPTEL"
+                  />
+                  <div class="certifications-details">
+                    <a
+                      href="https://archive.nptel.ac.in/noc/Ecertificate/?=NPTEL21CS62S446000103134594"
+                      target="_blank"
+                    >
+                      <p class="certificationsTitle">Cloud Computing</p>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="certifications-card">
+                  <img
+                    src="assets/ResponsiveWebDesign.PNG"
                     alt="ResponsiveWebDesign-FreecodeCamp"
                   />
-                  <div class="achievements-details">
+                  <div class="certifications-details">
                     <a
-                      href="https://www.codingninjas.com/studio/profile/Sharitha"
+                      href="https://www.freecodecamp.org/certification/fcc8fbf10ea-c379-4948-a7ad-2cb149fa470b/responsive-web-design"
                       target="_blank"
                     >
-                      <p class="achievementsTitle">Coding Ninjas-Sharitha 🐱‍👤</p>
+                      <p class="certificationsTitle">Responsive Web Design</p>
                     </a>
                   </div>
-                </div> 
+                </div>
+
+                <div class="certifications-card">
+                  <img
+                    src="assets/MongoDBBasics.PNG"
+                    alt="Hobby Project 3"
+                  />
+                  <div class="certifications-details">
+                    <a
+                      href="https://learn.mongodb.com/c/4FGcdAsoTeaaBQjbaDia7Q"
+                      target="_blank"
+                    >
+                      <p class="certificationsTitle">MongoDB-Basics</p></a
+                    >
+                  </div>
+                </div>
+
               </div>
             </div>
+          </section>
+        
+          <section id="achievements">
+              <h5 id="achievementsTitle">Coding Profile</h5>
+              <div class="achievements-section">
+    
+                <div class="achievements-row">
+                  <div class="achievements-card">
+                    <img
+                      src="https://leetcard.jacoblin.cool/sharithag03?ext=contest"
+                      alt="Leetcode-Sharitha"
+                    />
+                    <div class="achievements-details">
+                      <a
+                        href="https://leetcode.com/sharithag03/"
+                        target="_blank"
+                      >
+                      <p class="achievementsTitle">Leetcode-Sharitha 🏆</p>
+                      </a>
+                    </div>
+                  </div>
+    
+                  <div class="achievements-card"> 
+                    <img
+                      src="assets/codingNInjas.PNG"
+                      alt="ResponsiveWebDesign-FreecodeCamp"
+                    />
+                    <div class="achievements-details">
+                      <a
+                        href="https://www.codingninjas.com/studio/profile/Sharitha"
+                        target="_blank"
+                      >
+                        <p class="achievementsTitle">Coding Ninjas-Sharitha 🐱‍👤</p>
+                      </a>
+                    </div>
+                  </div> 
+                </div>
+              </div>
           </section>  
-            </div>
+            
+          <div class="moveToTop">
+              <a href="#main" >
+                <i id="topButton" class='fa fa-arrow-circle-up' style='font-size:36px;color:#604f71;'>
+                </i>
+              </a>
           </div>
-       
-    </div>
-        <!-- https://leetcode.card.workers.dev/sharithag03?theme=default&font=source_code_pro&extension=null -->
-      <footer id="contact">
+  
+      </div>
+    </main>
+        
+    <footer id="contact">
         <div class="footSection">
             <div class="social-links">
                 <a href="https://instagram.com/sharitha_gunasekaran" target="_blank"><i class="fa fa-instagram"></i></a>
@@ -323,7 +327,7 @@
             </div>
            
         </div>
-       </footer>
+    </footer>
 
   </body>
 </html>

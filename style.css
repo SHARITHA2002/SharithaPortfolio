@@ -578,6 +578,17 @@ h6 {
   }
   /* certifications -section ends */
 
+  /*MoveTotop-starts*/
+
+  .moveToTop
+  {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  /*MoveToTop-ends*/
   
 /* Footer Section-starts */
 
