@@ -80,6 +80,7 @@ section {
   font-size: 4em;
   font-weight: bold;
   color: #463855;
+  cursor: pointer;
   transition:ease-out 1s;
 }
 
@@ -645,7 +646,6 @@ h6 {
     font-size: 24px;
     margin-right: 20px;
     vertical-align: middle;
-    viewport-fit:contain;
 }
 
 .contact-info p {
@@ -865,10 +865,6 @@ h6 {
   }
   /* Projects-Ends */
 
-  footer
-  {
-    /* width: 25em; */
-  }
   .footSection{
     display: flex;
     flex-direction: column;
